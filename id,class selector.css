@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu a {
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+.right {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main main right';
+  grid-gap: 10px;
+  background-image:url('https://www.codecalibre.com/wp-content/uploads/2020/06/code-calibre-graphic-designing.png');
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:rgb(211,211,211);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="item1"><h1>HISTORY OF GRAPHICS </h1> </div>
+  <div class="item2"><h1> Link</h1><br>
+<a href="https://www.befunky.com/features/graphic-designer/"  target="_blank">Free Graphic 1</a>
+<a href="https://www.figma.com/graphic-design-tool/" target="_blank">Free figma Graphic</a></div>
+  <div class="item3"><p>The origins of graphic design can be traced from the origins of human existence, from the caves of Lascaux, to Rome's Trajan's Column to the illuminated manuscripts of the Middle Ages, to the neon lights of Ginza, Tokyo. In "Babylon, artisans pressed cuneiform inscriptions into clay bricks or tablets which were used for construction. The bricks gave information such as the name of the reigning monarch, the builder, or some other dignitary".[9] This was the first known road sign announcing the name of the governor of a state or mayor of the city. The Egyptians developed communication by hieroglyphics that used picture symbols dating as far back as 136 B.C. found on the Rosetta Stone. "The Rosetta stone, found by one of Napoleon's engineers was an advertisement for the Egyptian ruler, Ptolemy as the "true Son of the Sun, the Father of the Moon, and the Keeper of the Happiness of Men" [9] The Egyptians also invented papyrus, paper made from reeds found along the Nile, on which they transcribed advertisements more common among their people at the time. During the "Dark Ages", from 500 AD to 1450 AD, monks created elaborate, illustrated manuscripts.The Pennsylvania Gazette to master the art of publicity, to promote his own books, and to influence the masses	. Beginning in the 11th century, longer scrolls and books were produced using movable type printing, making books widely available during the Song dynasty (960–1279).[12]
+During the 17th-18th century movable type was used for handbills or trade cards which were printed from wood or copper engravings. These documents announced a business and its location. English painter William Hogarth used his skill in engraving was one of the first to design for business trade.
+In Mainz Germany, in 1448, Johannes Gutenberg introduced movable type using a new metal alloy for use in a printing press and opened a new era of commerce. This made graphics more readily available since mass printing dropped the price of printing material significantly. Previously, most advertising was word of mouth. In France and England, for example, criers announced products for sale just as ancient Romans had done.
+The printing press made books more widely available. .</p></div>  
+  <div class="item4"><img src="https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2018/11/what-is-graphic-design.jpg" height="204" width="204"><br>
+<p>Graphics are visual presentations on a surface, such as a computer screen. Examples are photographs, drawing, graphics designs, maps, engineering drawings, or other images. Graphics often combine text and illustration.</p></div>
+</div>
+
+</body>
+</html>
